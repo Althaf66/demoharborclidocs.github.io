@@ -13,39 +13,38 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Africa/Cairo
-
+timezone: Asia/Kolkata
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Harbor-cli # the main title
+title: Harbor-CLI # the main title
 
-tagline: ML enthusiast # it will display as the sub-title
+tagline: Documentation for Harbor CLI # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  AhmedTremo, Blog, Github, Machine Learning, Python
+  Documentation for Harbor CLI
   
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://althaf66.github.io"
 
 github:
-  username: ahmedtremo # change to your github username
+  username: althaf # change to your github username
 
 twitter:
-  username: tremooo # change to your twitter username
+  username:  # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Ahmed Tremo
-  email: ahmedtremoo@gmail.com # change to your email address
+  name: Harbor CLI
+  email:  # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/tremooo # change to your twitter homepage
-    - https://github.com/ahmedtremo # change to your github homepage
+    - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/Althaf66 # change to your github homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/ahmed.tremo
-    - https://www.linkedin.com/in/ahmedtremo
+    #- https://www.facebook.com/
+    #- https://www.linkedin.com/in/
 
 google_site_verification: # fill in to your verification string
 
@@ -80,7 +79,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 
+avatar: https://goharbor.io/img/logos/harbor-icon-color.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
